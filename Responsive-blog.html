@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Navbar</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="Responsive.css" />
+ </head>
+ <body>
+
+<!-- Sidebar -->
+<aside class="sidebar" role="navigation" aria-label="Sidebar Navigation">
+  <div class="sidebar-logo">
+    <i class="bx bxs-bug-alt"></i>
+    <span>LOGO</span>
+  </div>
+  <div class="sidebar-label">Nested List</div>
+  <ul class="sidebar-menu">
+    <li>
+      <a href="#sent">
+        <i class="bx bx-send"></i>
+        Sent
+      </a>
+    </li>
+    <li>
+      <a href="#drafts">
+        <i class="bx bx-envelope"></i>
+        Drafts
+      </a>
+    </li>
+    <li class="expanded">
+      <a href="#inbox">
+        <i class="bx bx-inbox"></i>
+        Inbox
+        <i class="bx bx-chevron-down chevron"></i>
+      </a>
+    </li>
+  </ul>
+</aside>
+
+<div class="content">
+  <nav class="navbar" role="navigation" aria-label="Main Navigation">
+      <!-- Hamburger Toggle Button -->
+<button class="menu-toggle" aria-label="Toggle Sidebar">
+  <i class="bx bx-menu"></i>
+</button>
+    <div class="search-container">
+                  <i class="bx bx-search search-icon" aria-hidden="true"></i>
+      <label for="search" class="visually-hidden">Search</label>
+      <input type="text" id="search" placeholder="Search..." aria-label="Search" />
+    </div>
+
+    <div class="profile-section">
+      <div class="icon-badge">
+      <i class="bx bx-shopping-bag" role="button" tabindex="0" aria-label="Notifications"></i>
+      <span class="badge">3</span>
+      </div>
+      <div class="icon-badge">
+      <i class="bx bx-bell" role="button" tabindex="0" aria-label="Settings"></i>
+      <span class="badge">5</span>
+      </div>
+      <div class="profile" role="link" tabindex="0" aria-label="User Profile">
+        <img src="https://images.unsplash.com/photo-1606122017369-d782bbb78f32?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHBob3RvfGVufDB8fDB8fHww" alt="User profile picture" />
+        <span class="sp">Mujeeb</span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="secnav">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#blog">Blog</a></li>
+    </ul>
+    <div class="logo"><h2>mujeeb Website</h2></div>
+  </div>
+  <div class="image">
+    <img src="https://cdn.filtergrade.com/wp-content/uploads/2021/12/10130257/aleks-dorohovich-nJdwUHmaY8A-unsplash-1536x1030.jpg" alt="Forest landscape">
+  </div>
+  <p class="p1">5 minute read</p>
+
+  <div id="blog" class="blog">
+    <h1 class="h1">Lorem ipsum dolor</h1>
+    <p class="p2">Occaecati est et illo quibusdam accusamus qui. Incidunt aut et molestiae ut facere aut. Est quidem iusto praesentium 
+      excepturi harum nihil tenetur facilis. Ut omnis voluptates nihil accusantium doloribus eaque debitis.</p>
+
+      <div class="layout">
+        <div class="left">
+        <img src="https://images.unsplash.com/photo-1453396450673-3fe83d2db2c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfHx8MA%3D%3D" alt="forest landscape">
+        <div class="text-block">
+        <p class="p3">Tom smith</p>
+        <p class="p4">12/21/2023 3:24 PM</p>
+        </div>
+        </div>
+        <div class="right">
+        <i class="bx bx-share" role="button" tabindex="0" aria-label="Notifications"></i>
+      <i class="bx bx-heart" role="button" tabindex="0" aria-label="Settings"></i>
+      </div>
+      </div>
+    </div>
+    <div class="p-element">
+        <p class="p5">Robot Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Donec massa sapien, cursus vitae posuere vitae, vulputate commodo mi. 
+          Ut eu neque nisi. Curabitur non est sit amet sem faucibus elementum. Suspendisse luctus bibendum orci a dignissim. Integer ac eleifend urna. Quisque laoreet 
+          sit amet elit eu ultricies. Aliquam molestie, ligula eget sollicitudin facilisis, lacus justo faucibus augue, vitae facilisis lacus ante et nisl. Fusce suscipit 
+          auctor orci at accumsan. In nec orci ultrices, venenatis tellus sit amet, pellentesque ligula. Nam imperdiet tempor congue. Ut ornare urna ipsum, nec blandit nunc blandit ut.</p>
+          </div>
+          <div class="left2">
+            <img class="style-image" src="https://peacefulsoul.co/wp-content/uploads/2018/12/Countryside-New-Experiences.jpg" alt="Forest landscape">
+          </div>
+          <h1 class="h2">Fusce mollis sed elit in luctus</h1>
+          <div class="layout2">
+            <p>Quisque malesuada elit ac dolor scelerisque dapibus. Aenean pretium lectus sit amet dolor eleifend fringilla. Vivamus faucibus ornare ex sit amet gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam eget neque sit amet tellus feugiat accumsan. Nunc in tincidunt ante, a luctus augue. Nulla accumsan egestas egestas. Nullam arcu nibh, dictum a auctor et, dignissim non augue. Mauris pretium rutrum fringilla. Nunc elementum orci vel efficitur ultrices. Mauris elementum, ligula sed ultrices egestas, magna mi efficitur nulla, auctor accumsan lectus felis ac odio. 
+              Vivamus vestibulum elit eros, vel congue augue accumsan ut. Sed tincidunt eros tellus, in commodo ipsum scelerisque vel. Morbi 
+              sem mi, hendrerit nec enim 
+              sit amet, vulputate lacinia lacus. In sollicitudin mi quis ante ultricies consequat. In efficitur eros ac ex cursus 
+              tristique. Morbi ac tempus quam, vitae faucibus purus. 
+              Donec sit amet luctus nibh, semper mollis elit. Proin posuere maximus consequat. Praesent consectetur ante eget 
+              magna venenatis, nec elementum mauris 
+              accumsan. Vivamus pretium, diam et laoreet ultricies, lacus odio pellentesque enim, a vestibulum elit lorem sed augue.</p>
+          </div>
+          <div class="p-element">
+          <p class="p5">Proin posuere maximus consequat. Praesent consectetur ante eget magna venenatis, nec elementum mauris accumsan. 
+            Vivamus pretium, diam et laoreet ultricies, lacus odio pellentesque enim, a vestibulum elit lorem sed augue.</p>
+            </div>
+            <div class="p-element">
+              <div class="circle1">Marketing</div>
+              <div class="circle1">Sales</div>
+              <div class="circle1">Lifestyles</div>
+              </div>
+
+              <div class="line-break"></div>
+
+              
+              <div class="apart">
+                <div class="apart1">
+                  <i class="bx bx-chevron-left" role="button" tabindex="0" aria-label="Notifications"></i>
+                  <img src="https://images.unsplash.com/photo-1717533564570-4ea91a5df160?w=500&auto=format&fit=crop&q
+                  =60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHBob3RvfGVufDB8fDB8fHww" alt="Forest landscape">
+                   <div class="apart-text">
+                    <p>PREVIOUS POST</p>
+                    <p>Dis parturient montes</p>
+                   </div>
+                </div>
+                <div class="apart2">
+                  <div class="apart-text">
+                    <p>NEXT POST</p>
+                    <p>Nunc lobortis diam</p>
+                   </div>
+                   <img src="https://images.unsplash.com/photo-1606122017369-d782bbb78f32?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHBob3RvfGVufDB8fDB8fHww" alt="Forest lansdscape">
+                   <i class="bx bx-chevron-right" role="button" tabindex="0" aria-label="Notifications"></i>
+                </div>
+              </div>
+                <div class="finishing">
+                    <p class="p6">© 2023. All rights reserved</p>
+                      <p class="p6"><a href="#">Help Terms and Conditions</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <script>
+  const toggleBtn = document.querySelector('.menu-toggle');
+  const sidebar = document.querySelector('.sidebar');
+  const content = document.querySelector('.content');
+
+  toggleBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+  });
+
+  // Optional: Hide sidebar when clicking outside (mobile)
+  document.addEventListener('click', (e) => {
+    if (
+      window.innerWidth <= 768 &&
+      !sidebar.contains(e.target) &&
+      !toggleBtn.contains(e.target)
+    ) {
+      sidebar.classList.remove('active');
+    }
+  });
+</script>
+              </body>
+              </html>

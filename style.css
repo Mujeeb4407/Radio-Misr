@@ -1,0 +1,80 @@
+body {
+        font-family: sans-serif;
+}
+/*#box1 {
+    width: 250px;
+    background: red;
+    height: 250px;
+    font-size: 225px;
+    text-align: center;
+
+    animation: mySlide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation: 3s linear 0s running infinite myColorChange;
+}
+
+@keyframes mySlide {
+    50%{margin-left: 50%;}
+    0%{margin-left: 50%;}
+}
+
+@keyframes myRotate {
+    100%{transform: rotatex(360deg);}
+    100%{transform: rotatey(360deg);}
+}
+
+@keyframes myScale {
+    50%{transform: scale(0.5, 0.5);}
+}
+
+@keyframes myOpacity {
+    100%{opacity: 0;}
+}
+
+@keyframes myColorChange {
+    20%{background-color: green;}
+    40%{background-color: blue;}
+    60%{background-color: orange;}
+    80%{background-color: pink;}
+    100%{background-color: aqua;}
+}*/
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1::after {
+    content: "";
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-left: 8px;
+    padding: 10px;
+
+    animation: 6s change, infinite;  
+}
+
+@keyframes change {
+    0%{
+        content: "gaming";
+    }
+    25%{
+        content: "winning";
+    }
+    50%{
+        content: "exploring";
+    }
+    75%{
+        content: "learning";
+    }
+    100%{
+        content: "gaming"
+    }
+}
